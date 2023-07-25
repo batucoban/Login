@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:login/ui/view/authentication/login_view.dart';
 
-import 'ui/view/fire_home_view.dart';
+// ignore: unused_import
+import 'ui/view/home/fire_home_view.dart';
 
 
 void main() {
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter',
       theme: ThemeData.dark(),
-      home: const FireHomeView(),
+      home: const LoginView(),
     );
   }
 }

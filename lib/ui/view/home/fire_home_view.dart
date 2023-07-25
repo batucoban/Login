@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:login/core/service/firebase_service.dart';
 
-import '../../core/service/model/student.dart';
-import '../../core/service/model/user.dart';
+import '../../../core/service/model/student.dart';
+import '../../../core/service/model/user.dart';
 
 class FireHomeView extends StatefulWidget {
   const FireHomeView({super.key});
